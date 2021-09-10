@@ -170,9 +170,9 @@ void SnakeGame::update(){
     //atualiza o estado do jogo de acordo com o resultado da chamada de "process_input"
     switch(state){
         case RUNNING:
-            if(frameCount>0 && frameCount%10 == 0) //depois de 10 frames o jogo pergunta se o usuário quer continuar
-                state = WAITING_USER;
-            break;
+          //  if(frameCount>0 && frameCount%10 == 0) //depois de 10 frames o jogo pergunta se o usuário quer continuar
+          //      state = WAITING_USER;
+          //  break;
         case WAITING_USER: //se o jogo estava esperando pelo usuário então ele testa qual a escolha que foi feita
             if(choice == "n"){
                 state = GAME_OVER;
@@ -213,7 +213,7 @@ void clearScreen(){
 }
 
 void SnakeGame::render(){
-    //clearScreen();
+    clearScreen();
     bool jogo_terminou = false;
     if (((int) state) == 0){
       //desenha todas as linhas do labirinto
@@ -263,6 +263,6 @@ void SnakeGame::loop(){
         process_actions();
         update();
         render();
-        wait(1000);// espera 1 segundo entre cada frame
+        wait(100);// espera 1 segundo entre cada frame
     }
 }
