@@ -99,3 +99,4 @@ OK
 
 ## Comentários gerais CP1
 - Acho que você poderia tentar explorar mais o game loop pattern, como boa parte do CP1 foi entregue valeria a pena você tentar pensar em como distribuir as funcionalidades entre render/update e process_actions, de acordo com a lógica que você implementou.
+- João não falou comigo para apresentar o CP1, se ele apresentar o CP2 vou considerar que ele tem 50% da nota neste CP.
