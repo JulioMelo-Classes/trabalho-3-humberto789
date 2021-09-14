@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Snaze.dir/src/Level.cpp.o CMakeFiles/Snaze.dir/src/Snaze.cpp.o CMakeFiles/Snaze.dir/src/Player.cpp.o CMakeFiles/Snaze.dir/src/Servicos.cpp.o CMakeFiles/Snaze.dir/src/Snake.cpp.o CMakeFiles/Snaze.dir/src/SnakeGame.cpp.o CMakeFiles/Snaze.dir/src/ArrestaGrafo.cpp.o  -o Snaze 

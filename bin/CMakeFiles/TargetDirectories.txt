@@ -1,3 +1,0 @@
-/home/runner/Trabalho-Snaze-LP1/trabalho-3-humberto789/bin/CMakeFiles/rebuild_cache.dir
-/home/runner/Trabalho-Snaze-LP1/trabalho-3-humberto789/bin/CMakeFiles/Snaze_render_rapido.dir
-/home/runner/Trabalho-Snaze-LP1/trabalho-3-humberto789/bin/CMakeFiles/edit_cache.dir
