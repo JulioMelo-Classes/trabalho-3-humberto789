@@ -47,3 +47,51 @@ Para usar os testes basta substituir o arquivo de entrada por um dos abaixo que 
 - maze3.txt: Mapa com espaço estreito para ver se a cobra se prende
 - maze4.txt: Caminho sem saída para ver a decisão da cobra (Segue em frente ou tenta virar?)
 - maze5.txt: Mapa com possibilidade da cobra fazer loop e assim ativar o modo de busca randomica e não mais de profundidade 
+
+# Avaliação CP2
+
+## FindSolution.pacman
+
+O método find soluiton ou similar deve ser capaz de encontrar o conjunto de comandos que levam da posição atual da cobrinha até a posição da comida no modo pacman.
+
+**Avaiação**
+
+Vou considerar 70% uma vez que vocês implementaram uma solução que claramente não entendem...
+
+## FindSolution.snake
+
+O método find soluiton ou similar deve ser capaz de encontrar o conjunto de comandos que levam da posição atual da cobrinha até a posição da comida no modo snake.
+
+**Avaliação**
+
+não ficou claro se a solução leva em conta o corpo da snake, vou considerar 10% uma vez que deve ter sido um trabalho considerável adaptar uma solução de grafos.
+
+## Random start
+
+Deveria ser implementado na execução do programa um comando que permita que a posição inicial seja sorteada aleatoriamente. A posição inicial precisa ser válida e não deve causar a cobrinha/pacman iniciar em uma posição encurralada.
+
+**Avaliação**
+
+ok
+
+## Level Loop
+
+Deveria se implementado na execução do programa um comando que permite que os níveis fiquem se repetindo infinitamente, com a transição de mapas indo do primeiro nível até o último nível e voltando para o primeiro, de forma que seja mantida a contagem de pontos bem como a contagem de nível.
+
+**Avaliação**
+
+ok
+
+## Organização / Compilação automatizada / Casos de Teste
+
+Para a entrega final a organização do código em scr/data/include e compilação automatizada de alguma forma deve ser feita.
+
+**Avaliação**
+
+90% vou tirar pontos devido a erros de indentação
+
+## Documentação do código / Readme / Documentação de Casos de Teste
+
+**Avaliação**
+
+ok
